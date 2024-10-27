@@ -25,7 +25,7 @@ public class Payment {
         this.paymentDate = paymentDate;
     }
 
-    // Getters and Setters
+
     public int getId() {
         return id;
     }

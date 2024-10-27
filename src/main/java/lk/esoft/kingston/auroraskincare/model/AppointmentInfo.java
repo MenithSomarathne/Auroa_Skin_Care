@@ -17,7 +17,7 @@ public class AppointmentInfo {
         this.appointmentTime = appointmentTime;
     }
 
-    // Getters
+
     public String getAppointmentId() {
         return appointmentId;
     }

@@ -4,7 +4,7 @@ public class Dermatologist extends Person {
 
     private int id;
 
-    //Constructor
+
     public Dermatologist(String name, String email, String phone, int id) {
         super(name, email, phone);
         this.id = id;

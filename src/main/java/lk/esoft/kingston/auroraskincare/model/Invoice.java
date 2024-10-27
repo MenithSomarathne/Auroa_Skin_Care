@@ -24,7 +24,7 @@ public class Invoice {
         this.taxAmount = taxAmount;
     }
 
-    // Getters and Setters
+
 
     public int getId() {
         return id;
