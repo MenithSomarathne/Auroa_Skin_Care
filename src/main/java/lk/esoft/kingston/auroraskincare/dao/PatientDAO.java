@@ -36,7 +36,7 @@ public class PatientDAO {
         return null;
     }
 
-    // Method to fetch all patients from the database
+
     public List<Patient> getAllPatients() throws SQLException {
         List<Patient> patients = new ArrayList<>();
 

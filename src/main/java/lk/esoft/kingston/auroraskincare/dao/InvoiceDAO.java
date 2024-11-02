@@ -11,7 +11,7 @@ import java.time.LocalDate;
 
 public class InvoiceDAO {
 
-    // Method to create a new Invoice record
+
     public boolean createInvoice(Invoice invoice) throws SQLException {
         String query = "INSERT INTO invoice ( payment_id, total_amount, tax_amount, issue_date) VALUES (?, ?, ?, ?)";
 
@@ -27,7 +27,7 @@ public class InvoiceDAO {
 
     }
 
-    // Method to retrieve an Invoice by its ID
+
     public Invoice getInvoiceById(int invoiceId) throws SQLException {
         String query = "SELECT id, payment_id, total_amount, tax_amount, issue_date FROM invoice WHERE id = ?";
         Invoice invoice = null;
@@ -52,7 +52,7 @@ public class InvoiceDAO {
         return invoice;
     }
 
-    // Method to update an existing Invoice
+
     public boolean updateInvoice(Invoice invoice) throws SQLException {
         String query = "UPDATE invoice SET total_amount = ?, tax_amount = ? WHERE id = ?";
 
